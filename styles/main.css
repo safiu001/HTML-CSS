@@ -1,0 +1,68 @@
+body {
+    background-color: #ebd9d5;
+}
+
+hr {
+    margin: 20px 10px;
+    border-top: 2px solid #201d1d;
+    border-radius: 5px;
+}
+
+.main {
+    font-family: Tahoma, 'Times New Roman';
+}
+
+.intro-content {
+    padding: 30px 15px;
+    background-color: #f0e5fc;
+    color: #151B54;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.8em;
+}
+
+.login {
+    background-image: url(../images/4.jpg);
+    min-height: 450px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div.login > h2 {
+    margin-left: 50%;
+    padding: 10px;
+    font-size: 38px;
+}
+
+div.login > form {
+    margin-top: 30px;
+    margin-left: 45%;
+    font-size: 28px;
+    color: #482f23;
+    font-weight: bold;
+}
+
+#username, #password, #submit{
+    font-size: 25px;
+    border-radius: 8px;
+    border: 2px solid grey;
+    margin: 10px;
+    padding: 10px;
+    background-color: #efedeb;
+}
+
+#submit {
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+input:focus {
+    border: 2px solid #008000;
+}

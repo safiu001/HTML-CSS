@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #12524b;
+    padding: 20px;
+}
+
+nav > ul {
+    list-style: none;
+}
+
+.nav-list {
+    display: flex;
+}
+
+li.nav-item a {
+    color: #39b8c3;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 21px;
+    margin: 15px;
+}
+
+li.nav-item a:active {
+    color: #0FAA0F;
+}
+
+li.active a{
+    color: #0FAA0F;
+}

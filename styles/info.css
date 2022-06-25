@@ -1,0 +1,89 @@
+body {
+    background-color: #ebd9d5;
+    font-family: Tahoma, 'Times New Roman';
+}
+
+h1 {
+    font-size: 32px;
+    margin: 10px;
+}
+
+p {
+    margin: 10px;
+    font-size: 24px;
+    line-height: 1.5em;
+}
+
+.about-us {
+    padding: 20px;
+    background-color: #dccbef;
+}
+
+.about-us-img {
+    width: 100%;
+}
+
+.details{
+    margin-left: 30%;
+}
+
+h2 {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.details > h3 {
+    margin: 5px;
+    font-size: 22px;
+}
+
+.query-sec {
+    margin-left: 30%;
+    margin-top: 50px;
+}
+
+.contact-form {
+    margin: 20px;
+    font-size: 24px;
+}
+
+input, textarea {
+    border-radius: 5px;
+    font-size: 22px;
+    padding: 10px;
+    margin: 15px;
+    background-color: #efedeb;
+}
+
+.contact-form > textarea {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+#submit {
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+
+hr {
+    margin: 20px 10px;
+    border-top: 2px solid #201d1d;
+    border-radius: 5px;
+}
+
+ul.gallery-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+ul.gallery-list > li.item{
+    margin: 50px 20px;
+}
+
+li.item > img {
+    height: 300px;
+    width: 450px;
+}
